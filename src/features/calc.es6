@@ -9,6 +9,10 @@ const removeCalc = value => {
 
   var result = balanced('(', ')', next)
 
+  // if (result.post[0] === '%') {
+  //   result.post = result.post.substr(1)
+  // }
+
   if (result.post[0] !== ' ') {
     result.body = '(' + result.body
     while (result.post[0] && result.post[0] !== ' ') {

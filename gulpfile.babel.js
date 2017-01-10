@@ -75,4 +75,4 @@ gulp.task("build:copyfont", () => {
 })
 
 gulp.task('dev', seq('clean', 'compile', 'postcss', 'test'))
-gulp.task('build', seq('clean', ['build:scss', 'build:copyfont']))
+gulp.task('build', seq('clean', 'compile', ['build:scss', 'build:copyfont']))
