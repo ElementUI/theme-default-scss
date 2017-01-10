@@ -1,0 +1,7 @@
+@define-mixin color $name {
+  color: $name;
+}
+
+body {
+  @mixin color red;
+}

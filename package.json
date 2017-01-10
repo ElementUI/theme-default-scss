@@ -1,0 +1,46 @@
+{
+  "name": "theme-default-scss",
+  "version": "1.0.0",
+  "description": "Element default theme with SCSS",
+  "main": "dist/index.scss",
+  "scripts": {
+    "dev": "gulp dev",
+    "test": "karma start test/karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liril-net/theme-default-scss.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "postcss",
+    "element"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liril-net/theme-default-scss/issues"
+  },
+  "homepage": "https://github.com/liril-net/theme-default-scss#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "balanced-match": "^0.4.2",
+    "chai": "^3.5.0",
+    "cssmin": "^0.4.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^1.3.2",
+    "gulp-mocha": "^3.0.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.3.0",
+    "postcss": "^5.2.9",
+    "postcss-property-lookup": "^1.2.1",
+    "postcss-salad": "^1.0.6"
+  }
+}
