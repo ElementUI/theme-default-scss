@@ -1,0 +1,7 @@
+@define-extend foo {
+  background-color: red;
+}
+
+body {
+  @extend foo;
+}

@@ -1,0 +1,7 @@
+._extend-foo {
+  background-color: red;
+}
+
+body {
+  @extend ._extend-foo;
+}

@@ -1,0 +1,7 @@
+@mixin color($name) {
+  color: $name;
+}
+
+body {
+  @include color(red);
+}
