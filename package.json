@@ -1,23 +1,27 @@
 {
   "name": "theme-default-scss",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Element default theme with SCSS",
   "main": "dist/index.scss",
   "scripts": {
     "dev": "gulp dev",
-    "test": "gulp test"
+    "test": "gulp test",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liril-net/theme-default-scss.git"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "css",
     "scss",
     "postcss",
     "element"
   ],
-  "author": "",
+  "author": "liril-net",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/liril-net/theme-default-scss/issues"
