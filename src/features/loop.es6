@@ -2,7 +2,7 @@ import postcss from 'postcss'
 
 export default postcss.plugin('postcss-salad-css2scss-loop', () => {
   return root => {
-    root.walkAtRules('for', rule => {
+    root.walkAtRules(/for|each/, rule => {
       const variable = rule.params.split(' ')[0]
       const varReg = new RegExp(`\\\$\\\(${variable.slice(1)}\\\)`, 'g')
 

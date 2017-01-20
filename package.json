@@ -5,7 +5,7 @@
   "main": "dist/index.scss",
   "scripts": {
     "dev": "gulp dev",
-    "test": "karma start test/karma.conf.js"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
