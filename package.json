@@ -1,6 +1,6 @@
 {
   "name": "theme-default-scss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Element default theme with SCSS",
   "main": "dist/index.scss",
   "scripts": {
